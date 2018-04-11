@@ -1,8 +1,8 @@
 site_name: 'CiviCRM User Guide'
-site_url: https://docs.civicrm.org/user/en/stable/
-repo_url: https://github.com/civicrm/civicrm-user-guide
-site_description: 'A guide for CiviCRM users.'
-site_author: 'The CiviCRM community'
+site_url: https://systopia.de
+repo_url: https://github.com/systopia
+site_description: 'Leitfaden CiviCRM'
+site_author: 'SYSTOPIA'
 theme: material
 markdown_extensions:
   - attr_list

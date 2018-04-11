@@ -1,0 +1,2556 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="Manual für die Benutzer.">
+        <link rel="canonical" href="https://docs.civicrm.org/user/en/stable/">
+        <link rel="shortcut icon" href="./assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-0.16.1, mkdocs-material-1.4.1">
+    
+    
+  
+    <title>Manual CiviCRM - Systopia Organisationsberatung</title>
+  
+
+    
+      <script src="modernizr-56ade86843.js"></script>
+    
+    
+      <link rel="stylesheet" href="application-76741b64bc.css">
+      
+        <link rel="stylesheet" href="application-66fa0d9bba.palette.css">
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  <link rel="stylesheet" href="extra.css">
+  <script src="jquery-3.1.1.min.js"></script>
+  <script src="extra.js"></script>
+
+  </head>
+  
+    <body data-md-color-primary="indigo" data-md-color-accent="green">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex civi-logo">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a class="md-logo md-header-nav__button" href="https://systopia.de/" title="Systopia Organisationsberatung">
+          <img src="SYS_LogoVarianten2_transparent.png" height="65" margin-right="10px" alt="logo"/>
+        </a>
+      </div>
+      <a> &nbsp; </a>
+      <a> &nbsp; </a>  
+      <a> &nbsp; </a>
+      <a> &nbsp; </a>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a class="md-logo md-header-nav__button" href="https://civicrm.org" title="CiviCRM home">
+          <img src="civi-logo-120312.png" height="50" alt="logo" />
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+    </div>
+    <div class="md-flex civi-header">
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-header-nav__parent">
+          <a href="https://civicrm.org">CiviCRM</a>
+        </span>
+        <span class="md-header-nav__parent">
+          <a href="https://docs.civicrm.org/">Documentation</a>
+        </span>
+        <a href=".">
+          CiviCRM Manual
+          <span class="edition">(Deutsch)</span>
+        </a>
+        <a href="https://docs.civicrm.org/user/" class="other-editions">
+          (Andere Editionen)
+        </a>
+      </div>
+    </div>
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            CiviCRM Manual - Systopia Organisationsberatung
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search">
+  <div class="md-search__overlay"></div>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+              
+
+
+  
+
+
+  <a href="https://github.com/civicrm/civicrm-user-guide" title="Go to repositories" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+            
+          </div>
+      </div>
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
+    CiviCRM Manual
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/civicrm/civicrm-user-guide" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+    <a href="." title="Home" class="md-nav__link md-nav__link--active">
+      Home
+    </a>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Introduction
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Introduction
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="introduction/what-is-civicrm/" title="What is CiviCRM?" class="md-nav__link">
+      What is CiviCRM?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="introduction/real-world-examples/" title="Real World Examples" class="md-nav__link">
+      Real World Examples
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="introduction/components/" title="Components" class="md-nav__link">
+      Components
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="introduction/extensions/" title="Extensions" class="md-nav__link">
+      Extensions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="introduction/who-is-civicrm/" title="Who is CiviCRM?" class="md-nav__link">
+      Who is CiviCRM?
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Getting prepared
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Getting prepared
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="getting-prepared/is-civicrm-for-you/" title="Is CiviCRM for You?" class="md-nav__link">
+      Is CiviCRM for You?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="getting-prepared/identifying-your-needs/" title="Identifying Your Needs" class="md-nav__link">
+      Identifying Your Needs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="getting-prepared/test-it-out/" title="Test it out" class="md-nav__link">
+      Test it out
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="getting-prepared/hosting/" title="Hosting" class="md-nav__link">
+      Hosting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="getting-prepared/transitioning-to-civicrm/" title="Transitioning to CiviCRM" class="md-nav__link">
+      Transitioning to CiviCRM
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Initial set up
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Initial set up
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="initial-set-up/installation-and-basic-set-up/" title="Installation and basic set-up" class="md-nav__link">
+      Installation and basic set-up
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="initial-set-up/scheduled-jobs/" title="Scheduled jobs" class="md-nav__link">
+      Scheduled jobs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="initial-set-up/customizing-the-user-interface/" title="Customizing the user interface" class="md-nav__link">
+      Customizing the user interface
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="initial-set-up/permissions-and-access-control/" title="Permissions and access control" class="md-nav__link">
+      Permissions and access control
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="initial-set-up/security/" title="Security" class="md-nav__link">
+      Security
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="initial-set-up/civicrm-system-status/" title="CiviCRM System Status" class="md-nav__link">
+      CiviCRM System Status
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Advanced configuration
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Advanced configuration
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="advanced-configuration/email-system-configuration/" title="Email system configuration" class="md-nav__link">
+      Email system configuration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="advanced-configuration/change-logging/" title="Logging" class="md-nav__link">
+      Logging
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      The user interface
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        The user interface
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="the-user-interface/menu-dashboard-and-dashlets/" title="Menu, dashboard and dashlets" class="md-nav__link">
+      Menu, dashboard and dashlets
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="the-user-interface/searching/" title="Searching" class="md-nav__link">
+      Searching
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="the-user-interface/undelete/" title="Undelete" class="md-nav__link">
+      Undelete
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Organising your data
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Organising your data
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="organising-your-data/overview/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="organising-your-data/mapping-your-data/" title="Mapping your data" class="md-nav__link">
+      Mapping your data
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="organising-your-data/contacts/" title="Contacts" class="md-nav__link">
+      Contacts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="organising-your-data/groups-and-tags/" title="Groups and tags" class="md-nav__link">
+      Groups and tags
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="organising-your-data/smart-groups/" title="Smart groups" class="md-nav__link">
+      Smart groups
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="organising-your-data/activities/" title="Activities" class="md-nav__link">
+      Activities
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="organising-your-data/relationships/" title="Relationships" class="md-nav__link">
+      Relationships
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="organising-your-data/creating-custom-fields/" title="Creating Custom Fields" class="md-nav__link">
+      Creating Custom Fields
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="organising-your-data/profiles/" title="Profiles" class="md-nav__link">
+      Profiles
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
+      Common workflows
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        Common workflows
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="common-workflows/importing-data-into-civicrm/" title="Importing Data into CiviCRM" class="md-nav__link">
+      Importing Data into CiviCRM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="common-workflows/exporting-your-contacts/" title="Exporting Your Contacts" class="md-nav__link">
+      Exporting Your Contacts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="common-workflows/deduping-and-merging/" title="Deduping and Merging" class="md-nav__link">
+      Deduping and Merging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="common-workflows/tokens-and-mail-merge/" title="Tokens and mail merge" class="md-nav__link">
+      Tokens and mail merge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="common-workflows/postal-mail-communications/" title="Postal mail communications" class="md-nav__link">
+      Postal mail communications
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="common-workflows/automating-tasks/" title="Automating tasks" class="md-nav__link">
+      Automating tasks
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+    
+    <label class="md-nav__link" for="nav-9">
+      Contributions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        Contributions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/what-is-civicontribute/" title="What is CiviContribute?" class="md-nav__link">
+      What is CiviContribute?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/key-concepts-and-configurations/" title="Key concepts and configurations" class="md-nav__link">
+      Key concepts and configurations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/online-contributions/" title="Online contributions" class="md-nav__link">
+      Online contributions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/offline-fundraising/" title="Offline fundraising" class="md-nav__link">
+      Offline fundraising
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/manual-entry-of-contributions/" title="Manual entry of contributions" class="md-nav__link">
+      Manual entry of contributions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/finding-and-viewing-contributions/" title="Finding and viewing contributions" class="md-nav__link">
+      Finding and viewing contributions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/manual-receipts-and-thank-yous/" title="Manual receipts and thank-you letters" class="md-nav__link">
+      Manual receipts and thank-you letters
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/reports-and-analysis/" title="Reports and analysis" class="md-nav__link">
+      Reports and analysis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/soft-credits/" title="Soft credits" class="md-nav__link">
+      Soft credits
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/personal-campaign-pages/" title="Personal Campaign Pages" class="md-nav__link">
+      Personal Campaign Pages
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/accounting-integration/" title="Accounting Integration" class="md-nav__link">
+      Accounting Integration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/payment-processors/" title="Payment processors" class="md-nav__link">
+      Payment processors
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/invoicing/" title="Invoicing" class="md-nav__link">
+      Invoicing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/sales-tax-and-vat/" title="Sales tax and VAT" class="md-nav__link">
+      Sales tax and VAT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/premiums/" title="Premiums" class="md-nav__link">
+      Premiums
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributions/widgets/" title="Widgets" class="md-nav__link">
+      Widgets
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10">
+    
+    <label class="md-nav__link" for="nav-10">
+      Pledges
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-10">
+        Pledges
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="pledges/what-is-civipledge/" title="What is CiviPledge?" class="md-nav__link">
+      What is CiviPledge?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="pledges/what-you-need-to-know/" title="What you need to know" class="md-nav__link">
+      What you need to know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="pledges/set-up/" title="Set-up" class="md-nav__link">
+      Set-up
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="pledges/everyday-tasks/" title="Everyday tasks" class="md-nav__link">
+      Everyday tasks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="pledges/pledges-reports-and-analysis/" title="Pledges Reports and Analysis" class="md-nav__link">
+      Pledges Reports and Analysis
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-11" type="checkbox" id="nav-11">
+    
+    <label class="md-nav__link" for="nav-11">
+      Events
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-11">
+        Events
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="events/what-is-civievent/" title="What is CiviEvent?" class="md-nav__link">
+      What is CiviEvent?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="events/event-planning-and-management/" title="Event planning and management" class="md-nav__link">
+      Event planning and management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="events/creating-an-event/" title="Creating an event" class="md-nav__link">
+      Creating an event
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="events/online-event-registration/" title="Online event registration" class="md-nav__link">
+      Online event registration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="events/integrating-events-with-your-website/" title="Integrating events with your website" class="md-nav__link">
+      Integrating events with your website
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="events/manual-event-registration/" title="Manual event registration" class="md-nav__link">
+      Manual event registration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="events/keeping-track-of-events-and-participants/" title="Keeping track of events and participants" class="md-nav__link">
+      Keeping track of events and participants
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="events/complex-event-fees/" title="Complex event fees" class="md-nav__link">
+      Complex event fees
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="events/event-templates/" title="Event templates" class="md-nav__link">
+      Event templates
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="events/reports/" title="Reports" class="md-nav__link">
+      Reports
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="events/custom-data-for-events/" title="Custom data for events" class="md-nav__link">
+      Custom data for events
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="events/repeating-events/" title="Repeating Events" class="md-nav__link">
+      Repeating Events
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-12" type="checkbox" id="nav-12">
+    
+    <label class="md-nav__link" for="nav-12">
+      Membership
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-12">
+        Membership
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="membership/what-is-civimember/" title="What is CiviMember" class="md-nav__link">
+      What is CiviMember
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="membership/defining-memberships/" title="Defining memberships" class="md-nav__link">
+      Defining memberships
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="membership/online-membership-sign-up/" title="Online membership sign up" class="md-nav__link">
+      Online membership sign up
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="membership/manual-entry-of-memberships/" title="Manual entry of memberships" class="md-nav__link">
+      Manual entry of memberships
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="membership/membership-price-sets/" title="Membership price sets" class="md-nav__link">
+      Membership price sets
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="membership/finding-and-viewing-memberships/" title="Finding and viewing memberships" class="md-nav__link">
+      Finding and viewing memberships
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="membership/membership-reports/" title="Membership Reports" class="md-nav__link">
+      Membership Reports
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="membership/renewals/" title="Renewals" class="md-nav__link">
+      Renewals
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="membership/cancelling-and-expiring-memberships/" title="Cancelling and expiring memberships" class="md-nav__link">
+      Cancelling and expiring memberships
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="membership/making-member-only-websites/" title="Making member only websites" class="md-nav__link">
+      Making member only websites
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-13" type="checkbox" id="nav-13">
+    
+    <label class="md-nav__link" for="nav-13">
+      Email
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-13">
+        Email
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="email/what-is-civimail/" title="What is CiviMail?" class="md-nav__link">
+      What is CiviMail?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="email/what-you-need-to-know/" title="What You Need To Know" class="md-nav__link">
+      What You Need To Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="email/set-up/" title="Set-up" class="md-nav__link">
+      Set-up
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="email/maintaining-healthy-email-lists/" title="Maintaining Healthy Email Lists" class="md-nav__link">
+      Maintaining Healthy Email Lists
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="email/everyday-tasks/" title="Everyday tasks" class="md-nav__link">
+      Everyday tasks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="email/mass-mailings-using-civimail/" title="Mass mailings using CiviMail" class="md-nav__link">
+      Mass mailings using CiviMail
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="email/using-tokens-in-emails/" title="Using tokens in emails" class="md-nav__link">
+      Using tokens in emails
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="email/reports-and-analysis/" title="Reports and analysis" class="md-nav__link">
+      Reports and analysis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="email/scheduled-reminders/" title="Scheduled reminders" class="md-nav__link">
+      Scheduled reminders
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="email/civimail-ab-testing/" title="CiviMail A/B Testing" class="md-nav__link">
+      CiviMail A/B Testing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-14" type="checkbox" id="nav-14">
+    
+    <label class="md-nav__link" for="nav-14">
+      SMS (text messaging)
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-14">
+        SMS (text messaging)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="sms-text-messaging/what-is-sms/" title="What is SMS?" class="md-nav__link">
+      What is SMS?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="sms-text-messaging/set-up/" title="Set-up" class="md-nav__link">
+      Set-up
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="sms-text-messaging/everyday-tasks/" title="Everyday tasks" class="md-nav__link">
+      Everyday tasks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="sms-text-messaging/reports-and-analysis-sms/" title="Reports and Analysis (SMS)" class="md-nav__link">
+      Reports and Analysis (SMS)
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-15" type="checkbox" id="nav-15">
+    
+    <label class="md-nav__link" for="nav-15">
+      Reporting
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-15">
+        Reporting
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reporting/what-is-civireport/" title="What is CiviReport?" class="md-nav__link">
+      What is CiviReport?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reporting/what-you-need-to-know/" title="What You Need To Know" class="md-nav__link">
+      What You Need To Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reporting/set-up/" title="Set-up" class="md-nav__link">
+      Set-up
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reporting/everyday-tasks/" title="Everyday Tasks" class="md-nav__link">
+      Everyday Tasks
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-16" type="checkbox" id="nav-16">
+    
+    <label class="md-nav__link" for="nav-16">
+      Case management
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-16">
+        Case management
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="case-management/what-is-civicase/" title="What is CiviCase?" class="md-nav__link">
+      What is CiviCase?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="case-management/what-you-need-to-know/" title="What You Need To Know" class="md-nav__link">
+      What You Need To Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="case-management/set-up/" title="Set-up" class="md-nav__link">
+      Set-up
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="case-management/everyday-tasks/" title="Everyday Tasks" class="md-nav__link">
+      Everyday Tasks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="case-management/reports-and-analysis/" title="Reports and analysis" class="md-nav__link">
+      Reports and analysis
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-17" type="checkbox" id="nav-17">
+    
+    <label class="md-nav__link" for="nav-17">
+      Campaign
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-17">
+        Campaign
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="campaign/what-is-civicampaign/" title="What is CiviCampaign?" class="md-nav__link">
+      What is CiviCampaign?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="campaign/what-you-need-to-know/" title="What You Need To Know" class="md-nav__link">
+      What You Need To Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="campaign/set-up/" title="Set-up" class="md-nav__link">
+      Set-up
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="campaign/everyday-tasks/" title="Everyday tasks" class="md-nav__link">
+      Everyday tasks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="campaign/reports-and-analysis/" title="Reports and analysis" class="md-nav__link">
+      Reports and analysis
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-18" type="checkbox" id="nav-18">
+    
+    <label class="md-nav__link" for="nav-18">
+      Survey
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-18">
+        Survey
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="survey/what-is-civisurvey/" title="What is CiviSurvey?" class="md-nav__link">
+      What is CiviSurvey?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="survey/what-you-need-to-know/" title="What You Need To Know" class="md-nav__link">
+      What You Need To Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="survey/set-up/" title="Set-up" class="md-nav__link">
+      Set-up
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="survey/everyday-tasks/" title="Everyday Tasks" class="md-nav__link">
+      Everyday Tasks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="survey/reports-and-analysis/" title="Reports and analysis" class="md-nav__link">
+      Reports and analysis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="survey/what-is-gotv-voter-tracking/" title="What is GOTV (Voter Tracking)?" class="md-nav__link">
+      What is GOTV (Voter Tracking)?
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-19" type="checkbox" id="nav-19">
+    
+    <label class="md-nav__link" for="nav-19">
+      Petition
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-19">
+        Petition
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="petition/what-is-civipetition/" title="What is CiviPetition?" class="md-nav__link">
+      What is CiviPetition?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="petition/what-you-need-to-know/" title="What You Need To Know" class="md-nav__link">
+      What You Need To Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="petition/set-up/" title="Set-up" class="md-nav__link">
+      Set-up
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="petition/everyday-tasks/" title="Everyday Tasks" class="md-nav__link">
+      Everyday Tasks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="petition/reports-and-analysis/" title="Reports and analysis" class="md-nav__link">
+      Reports and analysis
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-20" type="checkbox" id="nav-20">
+    
+    <label class="md-nav__link" for="nav-20">
+      Civic Engagement
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-20">
+        Civic Engagement
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="civic-engagement/what-is-civiengage/" title="What is CiviEngage?" class="md-nav__link">
+      What is CiviEngage?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="civic-engagement/what-you-need-to-know/" title="What You Need To Know" class="md-nav__link">
+      What You Need To Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="civic-engagement/set-up/" title="Set-up" class="md-nav__link">
+      Set-up
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="civic-engagement/everyday-tasks/" title="Everyday Tasks" class="md-nav__link">
+      Everyday Tasks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="civic-engagement/reports-and-analysis/" title="Reports and analysis" class="md-nav__link">
+      Reports and analysis
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-21" type="checkbox" id="nav-21">
+    
+    <label class="md-nav__link" for="nav-21">
+      Grants
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-21">
+        Grants
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="grants/what-is-civigrant/" title="What is CiviGrant?" class="md-nav__link">
+      What is CiviGrant?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="grants/what-you-need-to-know/" title="What You Need To Know" class="md-nav__link">
+      What You Need To Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="grants/set-up/" title="Set-up" class="md-nav__link">
+      Set-up
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="grants/every-day-tasks/" title="Everyday tasks" class="md-nav__link">
+      Everyday tasks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="grants/reports-and-analysis/" title="Reports and analyis" class="md-nav__link">
+      Reports and analyis
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-22" type="checkbox" id="nav-22">
+    
+    <label class="md-nav__link" for="nav-22">
+      Website integration
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-22">
+        Website integration
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="website-integration/choosing-your-cms/" title="Choosing your CMS" class="md-nav__link">
+      Choosing your CMS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="website-integration/integrating-with-drupal/" title="Integrating with Drupal" class="md-nav__link">
+      Integrating with Drupal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="website-integration/integrating-with-wordpress/" title="Integrating with WordPress" class="md-nav__link">
+      Integrating with WordPress
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="website-integration/integrating-with-joomla/" title="Integrating with Joomla" class="md-nav__link">
+      Integrating with Joomla
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-23" type="checkbox" id="nav-23">
+    
+    <label class="md-nav__link" for="nav-23">
+      The CiviCRM Community
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-23">
+        The CiviCRM Community
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="the-civicrm-community/the-civicrm-community/" title="The CiviCRM Community" class="md-nav__link">
+      The CiviCRM Community
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="the-civicrm-community/bug-reporting/" title="Bug Reporting" class="md-nav__link">
+      Bug Reporting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="the-civicrm-community/localising-civicrm/" title="Localising CiviCRM" class="md-nav__link">
+      Localising CiviCRM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="the-civicrm-community/contributing-to-this-manual/" title="Contributing to this guide" class="md-nav__link">
+      Contributing to this guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-24" type="checkbox" id="nav-24">
+    
+    <label class="md-nav__link" for="nav-24">
+      Appendices
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-24">
+        Appendices
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="appendices/history-of-this-book/" title="History of this book" class="md-nav__link">
+      History of this book
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="appendices/free-software/" title="Free Software?" class="md-nav__link">
+      Free Software?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="appendices/glossary/" title="Glossary" class="md-nav__link">
+      Glossary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="appendices/credits/" title="Credits" class="md-nav__link">
+      Credits
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/civicrm/civicrm-user-guide/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
+                
+                
+                <h1 id="civicrm-user-guide">CiviCRM User Guide<a class="headerlink" href="#civicrm-user-guide" title="Permanent link">&para;</a></h1>
+<p>This book is a guide for users of CiviCRM and covers
+everything they need to know
+to work with CiviCRM on a day to day basis. Our aim is to cover all
+functionality that is available via CiviCRM's user interface.</p>
+<p>Although we do not cover system administrator or developer topics,
+CiviCRM developers and system administrators will also find this book
+useful as a guide to everything you can do with an 'out of the box'
+CiviCRM.</p>
+<p>Some aspects of CiviCRM (such as installation, or custom development)
+are technical and outside the scope of this book. Although they are not
+covered here, we do point to other relevant sources of technical
+document which should be useful for people (like your service provider,
+or technical staff) who understand them.</p>
+<p>This book is freely available to read online. It is collaboratively written by the CiviCRM community (see the
+<em>History of this book</em> chapter for more details). You can help write this
+book and help with other documentation efforts. See
+https://civicrm.org/participate/documentation for more information. </p>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+        
+          <a href="introduction/what-is-civicrm/" title="What is CiviCRM?" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                What is CiviCRM?
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        <a href="https://civicrm.org">CiviCRM</a>
+        &raquo;
+        <a href="https://docs.civicrm.org">Documentation</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="application-3964c0cb56.js"></script>
+      <script>app.initialize({url:{base:"."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

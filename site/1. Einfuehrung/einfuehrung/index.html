@@ -1,0 +1,675 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Leitfaden CiviCRM">
+      
+      
+        <link rel="canonical" href="https://systopia.de/1. Einfuehrung/einfuehrung/">
+      
+      
+        <meta name="author" content="SYSTOPIA">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.2">
+    
+    
+      
+        <title>Einführung - CiviCRM User Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.8d40d89b.css">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <a href="#einfuhrung" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://systopia.de" title="CiviCRM User Guide" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                CiviCRM User Guide
+              </span>
+              <span class="md-header-nav__topic">
+                Einführung
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/systopia/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </span>
+    CiviCRM User Guide
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/systopia/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+    <a href="./" title="Einführung" class="md-nav__link md-nav__link--active">
+      Einführung
+    </a>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      CiviCRM installieren und konfigurieren - Technische Grundlagen
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        CiviCRM installieren und konfigurieren - Technische Grundlagen
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../2. CiviCRM installieren und konfigurieren - technische grundlagen/2.1. installation/" title="Installation" class="md-nav__link">
+      Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../2. CiviCRM installieren und konfigurieren - technische grundlagen/2.2. grundkonfiguration/" title="Grundkonfiguration" class="md-nav__link">
+      Grundkonfiguration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../2. CiviCRM installieren und konfigurieren - technische grundlagen/2.3. civicrm und cms - integrationsmöglichkeiten in ihre website/" title="CiviCRM und CMS - Integrationsmöglichkeiten in Ihre Website" class="md-nav__link">
+      CiviCRM und CMS - Integrationsmöglichkeiten in Ihre Website
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Kontakte und Beziehungen mit CiviCRM managen
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Kontakte und Beziehungen mit CiviCRM managen
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../3. Kontakte und beziehungen mit civicrm managen/3. kontakte und beziehungen mit civicrm managen/" title="Kontakte und Beziehungen mit CiviCRM managen" class="md-nav__link">
+      Kontakte und Beziehungen mit CiviCRM managen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../3. Kontakte und beziehungen mit civicrm managen/3.1. kontaktarten/" title="Kontaktarten" class="md-nav__link">
+      Kontaktarten
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../3. Kontakte und beziehungen mit civicrm managen/3.2. kontakte anlegen/" title="Kontakte anlegen" class="md-nav__link">
+      Kontakte anlegen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../3. Kontakte und beziehungen mit civicrm managen/3.3. kontakte finden und bearbeiten/" title="Kontakte finden und bearbeiten" class="md-nav__link">
+      Kontakte finden und bearbeiten
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../3. Kontakte und beziehungen mit civicrm managen/3.4. kontakte gruppieren und segmentieren/" title="Kontakte gruppieren und segmentieren" class="md-nav__link">
+      Kontakte gruppieren und segmentieren
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../3. Kontakte und beziehungen mit civicrm managen/3.5. kontakte exportieren/" title="Kontakte exportieren" class="md-nav__link">
+      Kontakte exportieren
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../3. Kontakte und beziehungen mit civicrm managen/3.6. kontakte importieren/" title="Kontakte importieren" class="md-nav__link">
+      Kontakte importieren
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../3. Kontakte und beziehungen mit civicrm managen/3.7. beziehungen anlegen/" title="Beziehungen anlegen" class="md-nav__link">
+      Beziehungen anlegen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../3. Kontakte und beziehungen mit civicrm managen/3.8. benutzerdefinierte felder anlegen/" title="Benutzerdefinierte Felder anlegen" class="md-nav__link">
+      Benutzerdefinierte Felder anlegen
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Kommunikation und Interaktion
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Kommunikation und Interaktion
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../4. kommunikation und interaktion/1. eine begrenzte anzahl e-mail oder briefe verschicken/" title="Eine begrenzte Anzahl E-Mail oder Briefe verschicken" class="md-nav__link">
+      Eine begrenzte Anzahl E-Mail oder Briefe verschicken
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../4. kommunikation und interaktion/2. vordefinition von vorlagen/" title="Vordefinition" class="md-nav__link">
+      Vordefinition
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../4. kommunikation und interaktion/3. massenmails und newsletter/" title="Massenmails und Newsletter" class="md-nav__link">
+      Massenmails und Newsletter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../4. kommunikation und interaktion/4. kontakthistorie/" title="Kontaktehistorie" class="md-nav__link">
+      Kontaktehistorie
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../X. Daten Struktur/X. Daten Struktur/" title="Daten Struktur" class="md-nav__link">
+      Daten Struktur
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/systopia/edit/master/docs/1. Einfuehrung/einfuehrung.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="einfuhrung">Einführung<a class="headerlink" href="#einfuhrung" title="Permanent link">&para;</a></h1>
+<p>CiviCRM ist eine freie CRM-Software für Nonprofit-Organisationen. Dabei steht CRM für Constituent Relationship Management (oder auch Customer Relationship Management), was sich grob mit Kontakt- und Beziehungsmanagement übersetzen lässt. Das Hauptziel von CRM ist der gezielte und nachhaltige Aufbau von Beziehungen zu allen Arten von Stakeholdern, die eine Organisation hat. Weltweit setzen über 10.000 Vereine, Stiftungen, NGOs und Verbände CiviCRM ein. Es bietet nicht nur umfangreiche Funktionen im Bereich der Kontaktverwaltung, sondern auch Unterstützung für viele weitere Aufgaben, die in Management, Administration und Customer Relationship Management (CRM) von Nonprofit-Organisationen anfallen. Zu den Leistungsmerkmalen von CiviCRM zählen u.a. folgende Bereiche:</p>
+<p><img alt="image" src="../../img/einfuehrung_manual_web.jpg" /></p>
+<p>Weitere Funktionen werden durch eine stetig wachsende Zahl von Erweiterungen („Extensions“) angeboten. 
+So bietet etwa die Extension CiviHR umfassende Funktionen für die Personalverwaltung. Ziel dieses Leitfadens ist, neuen/unerfahrenen Benutzerinnen und Benutzern einen schnellen Einstieg und eine gute Orientierung über Funktionsweise und Logik von CiviCRM zu bieten. Demzufolge gehen wir vor allem auf anwendungsorientierte Fragen und nur in Ausnahmefällen auf administrative oder besonders komplexe Aufgaben ein. Wir erheben keinen Anspruch auf Vollständigkeit oder Richtigkeit, bemühen uns aber, den Leitfaden ständig weiter zu entwickeln und wo nötig zu überarbeiten und zu korrigieren. Fragen, Anmerkungen, Kommentare und konstruktive Kritik sind uns sehr willkommen. 
+Über diesen Leitfaden hinaus gibt es noch weitere empfehlenswerte Informationsquellen:</p>
+<p><a href="https://civicrm.stackexchange.com/"><strong>StackExchange</strong></a></p>
+<p>StackExchange ist eine Plattform für themenspezifische Fragen und Antworten für Anwender, Administratorinnen und Implementier. Sie ist eine gute Anlaufstelle bei Fragen oder Problemen, die bei der Nutzung von CiviCRM entstehen können.</p>
+<p><a href="https://docs.civicrm.org/user/en/4.6/"><strong>Benutzerhandbuch</strong></a></p>
+<p>Im sehr umfangreichen englischen Benutzerhandbuch wird ausführlich auf die Nutzung und damit zusammenhängende grundlegende Fragen eingegangen. Es eignet sich insbesondere für einen vertieften Einstieg in CiviCRM oder wenn man sich einen neuen Funktionsbereich systematisch erschließen möchte.</p>
+<p><a href="https://www.packtpub.com/web-development/civicrm-cookbook"><strong>Cookbook</strong></a></p>
+<p>Das CiviCRM-Cookbook ist eine Sammlung so genannter "Rezepte". Jedes Rezept nimmt Bezug auf ein bestimmtes Thema oder Problem in CiviCRM. Daraus ergibt sich eine feste Struktur: jeweils 1 bis 2 Absätze um das Thema oder Problem darzustellen, dann ein Abschnitt "How to do it " mit den erforderlichen Schritten, um das Ziel zu erreichen und ein Abschnitt "How it works " mit einigen Hintergrundinformationen. Zudem gibt es jeweils einen Abschnitt "See also ", mit Links zu Online-Ressourcen oder anderen Rezepten im Buch. </p>
+<p><a href="https://forum.civicrm.org/"><strong>Offizielle Foren</strong></a></p>
+<p>In den englischsprachigen CiviCRM-Foren tauschen sich User, Entwickler und das Core-Team über unterschiedlichste CiviCRM-Themen aus. Seit der Einführung von StackExchange wird das Forum vor allem noch für Diskussionen genutzt, konkrete Fragen hingegen auf der neuen Plattform gestellt und beantwortet.</p>
+<p><a href=""><strong>Issuetracker (JIRA)</strong></a></p>
+<p>Dies ist der offizielle Issue-Tracker von CiviCRM. Hier werden technische Probleme oder neu zu entwickelnde Funktionen erfasst und deren Bearbeitungsstand dokumentiert.</p>
+<p><a href="https://sfe-ev.org/mailinglist"><strong>Mailingliste SfE</strong></a></p>
+<p>Über die deutschsprachige Mailingliste tauschen sich deutsche User über CiviCRM aus. Betreut wird sie vom Verein „Software für Engagierte“, dessen Ziel eine Interessenaggregation von deutschsprachigen CiviCRM-Usern ist.</p>
+<p>CiviCRM ist weitgehend individuell anpassbar, und auch die verschiedenen Versionen können funktionale und/oder optische Unterschiede aufweisen. Es kann also sein, dass sich im Detail Unterschiede zu der Instanz von CiviCRM ergeben, mit der Sie – vielleicht jetzt im Moment – arbeiten. Dieser Leitfaden bezieht sich auf eine (deutsch) lokalisierte, ansonsten aber weitestgehend unveränderte Standardinstallation der Version 4.4 unter Drupal 7. Leserinnen sollten zudem beachten, dass viele Funktionen abhängig von den Rechten des eigenen Benutzerkontos und von der globalen Konfiguration der Installation sind. Bestimmte hier beschriebene Funktionen können daher nicht, nur eingeschränkt oder beispielsweise unter anderen Namen zur Verfügung stehen.</p>
+<p>CiviCRM ist freie Software und im Original englischsprachig. Die Übersetzung wird von Freiwilligen geleistet und ist noch nicht zu 100% abgeschlossen. Sie finden daher zur Zeit gelegentlich noch unübersetzte Textteile.</p>
+<p>Dieser Leitfaden beginnt mit der Darstellung der technischen Grundlagen in Kapitel 2. Dort sind die Installation, die Grundkonfiguration sowie die Integrationsmöglichkeit in Ihre eigene Webseite beschrieben. Das daran anschließende Kapitel 3 enthält Hinweise zum Management von Kontakten und Beziehungen. Es wird ausführlich dargestellt was mit Hilfe von CiviCRM in der Kontaktverwaltung möglich ist. Kapitel 4 beschäftigt sich mit dem Themenfeld Kommunikation und Interaktion. Unter anderem werden dort die Funktionen für Massenmails und Newsletter sowie die Verwendung von Vorlagen vorgestellt.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../.." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Home
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../2. CiviCRM installieren und konfigurieren - technische grundlagen/2.1. installation/" title="Installation" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Installation
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.b438e6c5.js"></script>
+      
+      <script>app.initialize({version:"0.17.3",url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

@@ -1,6 +1,6 @@
 site_name: 'CiviCRM User Guide'
 site_url: https://systopia.de
-repo_url: https://github.com/systopia
+repo_url: https://github.com/pbatroff/systopia_leitfaden
 site_description: 'Leitfaden CiviCRM'
 site_author: 'SYSTOPIA'
 theme: material

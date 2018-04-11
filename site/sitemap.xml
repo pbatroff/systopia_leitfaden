@@ -20,77 +20,19 @@
     
         
     <url>
-     <loc>https://systopia.de/2. CiviCRM installieren und konfigurieren - technische grundlagen/2.1. installation/</loc>
+     <loc>https://systopia.de/2. CiviCRM installieren und konfigurieren - technische grundlagen/2.1_installation/</loc>
      <lastmod>2018-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://systopia.de/2. CiviCRM installieren und konfigurieren - technische grundlagen/2.2. grundkonfiguration/</loc>
+     <loc>https://systopia.de/2. CiviCRM installieren und konfigurieren - technische grundlagen/2.2_grundkonfiguration/</loc>
      <lastmod>2018-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://systopia.de/2. CiviCRM installieren und konfigurieren - technische grundlagen/2.3. civicrm und cms - integrationsmöglichkeiten in ihre website/</loc>
-     <lastmod>2018-04-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3. kontakte und beziehungen mit civicrm managen/</loc>
-     <lastmod>2018-04-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.1. kontaktarten/</loc>
-     <lastmod>2018-04-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.2. kontakte anlegen/</loc>
-     <lastmod>2018-04-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.3. kontakte finden und bearbeiten/</loc>
-     <lastmod>2018-04-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.4. kontakte gruppieren und segmentieren/</loc>
-     <lastmod>2018-04-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.5. kontakte exportieren/</loc>
-     <lastmod>2018-04-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.6. kontakte importieren/</loc>
-     <lastmod>2018-04-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.7. beziehungen anlegen/</loc>
-     <lastmod>2018-04-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.8. benutzerdefinierte felder anlegen/</loc>
+     <loc>https://systopia.de/2. CiviCRM installieren und konfigurieren - technische grundlagen/2.3_civicrm_cms_integration/</loc>
      <lastmod>2018-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -100,25 +42,83 @@
     
         
     <url>
-     <loc>https://systopia.de/4. kommunikation und interaktion/1. eine begrenzte anzahl e-mail oder briefe verschicken/</loc>
+     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3_manage_contacts_relationships/</loc>
      <lastmod>2018-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://systopia.de/4. kommunikation und interaktion/2. vordefinition von vorlagen/</loc>
+     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.1_contact_types/</loc>
      <lastmod>2018-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://systopia.de/4. kommunikation und interaktion/3. massenmails und newsletter/</loc>
+     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.2_create_contacts/</loc>
      <lastmod>2018-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://systopia.de/4. kommunikation und interaktion/4. kontakthistorie/</loc>
+     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.3_find_edit_contacts/</loc>
+     <lastmod>2018-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.4_group_contacts/</loc>
+     <lastmod>2018-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.5_export_contacts/</loc>
+     <lastmod>2018-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.6_contact_import/</loc>
+     <lastmod>2018-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.7_create_relationships/</loc>
+     <lastmod>2018-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://systopia.de/3. Kontakte und beziehungen mit civicrm managen/3.8_create_custom_fields/</loc>
+     <lastmod>2018-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://systopia.de/4. kommunikation und interaktion/4.1_send_letters_emails/</loc>
+     <lastmod>2018-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://systopia.de/4. kommunikation und interaktion/4.2_defining_templates/</loc>
+     <lastmod>2018-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://systopia.de/4. kommunikation und interaktion/4.3_massmailings_newsletter/</loc>
+     <lastmod>2018-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://systopia.de/4. kommunikation und interaktion/4.4_contact_history/</loc>
      <lastmod>2018-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -127,7 +127,7 @@
 
     
     <url>
-     <loc>https://systopia.de/X. Daten Struktur/X. Daten Struktur/</loc>
+     <loc>https://systopia.de/data_structure/data_structure/</loc>
      <lastmod>2018-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
